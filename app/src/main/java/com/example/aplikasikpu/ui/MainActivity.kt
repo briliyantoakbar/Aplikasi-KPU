@@ -24,5 +24,10 @@ class MainActivity : AppCompatActivity() {
             val intent=Intent(this, ListDataActivity::class.java)
             startActivity(intent)
         }
+
+        btnCekLokasi.setOnClickListener {
+            val intent=Intent(this, MapsActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
