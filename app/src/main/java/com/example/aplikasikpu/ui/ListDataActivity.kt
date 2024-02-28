@@ -15,6 +15,7 @@ class ListDataActivity : AppCompatActivity() {
         val rview=findViewById<RecyclerView>(R.id.rview)
         val helper=DbHelper(this)
         val dataGetAll=helper.getAll()
+        getSupportActionBar()?.setTitle("List Data")
         val layoutManager =
             LinearLayoutManager(applicationContext, LinearLayoutManager.VERTICAL, false)
 

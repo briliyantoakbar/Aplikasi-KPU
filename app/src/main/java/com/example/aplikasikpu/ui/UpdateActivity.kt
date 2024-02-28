@@ -18,6 +18,8 @@ class UpdateActivity : AppCompatActivity() {
         val edtUpdateALAMAT = findViewById<EditText>(R.id.edt_update_address)
         val edtUpdateGENDER = findViewById<EditText>(R.id.edt_update_sex)
         val btnUpdate = findViewById<Button>(R.id.btn_update)
+        getSupportActionBar()?.setTitle("Update Data")
+
         var id = intent.getStringExtra("ID").toString()
         edtUpdateNIK.setText(intent.getStringExtra("NIK"))
         edtUpdateNAMA.setText(intent.getStringExtra("NAMA"))

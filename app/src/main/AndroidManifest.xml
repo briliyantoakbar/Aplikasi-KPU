@@ -17,15 +17,23 @@
             android:exported="false" />
         <activity
             android:name=".ui.DetailActivity"
+            android:theme="@style/Theme.MyApp"
+            android:parentActivityName=".ui.ListDataActivity"
             android:exported="false" />
         <activity
             android:name=".ui.UpdateActivity"
+            android:theme="@style/Theme.MyApp"
+            android:parentActivityName=".ui.ListDataActivity"
             android:exported="false" />
         <activity
             android:name=".ui.ListDataActivity"
+            android:theme="@style/Theme.MyApp"
+            android:parentActivityName=".ui.MainActivity"
             android:exported="false" />
         <activity
             android:name=".ui.EntryFormActivity"
+            android:theme="@style/Theme.MyApp"
+            android:parentActivityName=".ui.MainActivity"
             android:exported="false" />
         <activity
             android:name=".ui.SplashScreenActivity"

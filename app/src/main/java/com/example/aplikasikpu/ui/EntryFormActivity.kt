@@ -12,6 +12,8 @@ class EntryFormActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_entry_form)
+        getSupportActionBar()?.setTitle("Entry Data")
+
         val btnSave=findViewById<Button>(R.id.btn_save);
         val edtNIK=findViewById<EditText>(R.id.edt_nik);
         val edtNAMA=findViewById<EditText>(R.id.edt_name);
